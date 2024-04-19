@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BuildCostCompany &mdash; We construct with Elegance and Class 💯</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <!-- Development CSS -->
+    <!-- <link rel="stylesheet" href="css/style.css" /> -->
+
+    <!-- Deployable CSS -->
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__menu-bar">
+        <div class="header__logo-box">
+          <!--<svg class="logo">
+            <use xlink:href="img/sprite.svg#buildco-logo-green"></use>
+          </svg>-->
+        </div>
+
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-item">
+              <a href="index.html" class="header__nav-link header__nav-link--active"
+                >Home</a
+              >
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">About Us</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">Building Cost Calculator</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">Projects</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">Gallery</a>
+            </li>
+            <li class="header__nav-item">
+              <a href="#" class="header__nav-link">Contact Us</a>
+            </li>
+          </ul>
+        </nav>
+
+      </div>
+      <div class="header__content u-margin-bottom-big">
+        <section style="background-image: url(Screenshot2510.png);">
+            <div class="box">
+              <div class="square" style="--i: 0"></div>
+              <div class="square" style="--i: 1"></div>
+              <div class="square" style="--i: 2"></div>
+              <div class="square" style="--i: 3"></div>
+              <div class="square" style="--i: 4"></div>
+              <div class="container">
+                <div class="form">
+                 
+                  <h2 style="color: white;">House Calculator</h2>
+              <form action="combo.php" method = "POST">
+                  <div class="form-group">
+                      <label for="region" style="color: white;">Select Region:</label>
+                      <select name="region" id="region" >
+                        <option value="region">select your region</option>
+                        <option value="Nyeri">Nyeri</option>
+                        <option value="Muranga">Murang'a</option>
+                        <option value="Kisumu">kisumu</option>
+                        <option value="Kiambu">Kiambu</option>
+                        <option value="Nairobi">Nairobi</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                      <label for="squareFeet" style="color: white;">Square Feet:</label>
+                      <select name="square_ft" id="square_ft">
+                        <option value="range">select range of square_ft</option>
+                        <option value="100-500ft">100-500 ft</option>
+                        <option value="600-1000ft">600-1000 ft</option>
+                        <option value="1100-1500ft">1100-1500 ft</option>
+                        <option value="1600-2000ft">1600-2000 ft</option>
+                        <option value="2100-2500ft">2100-2500 ft</option>
+                        <option value="2600-3000ft">2600-3000 ft</option>
+                    </select>
+                  </div>
+                  
+                  <div class="form-group">
+                      <label for="bedrooms" style="color: white;">Number of Bedrooms:</label>
+                      <select name="num_rooms" id="num_rooms">
+                        <option value="rooms">select rooms</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                  </div>
+                  <!-- <div class="form-group">
+                      <label for="kitchens" style="color: white;">Number of Kitchens:</label>
+                      <input type="number" id="kitchens" name="kitchens" min="0" required>
+                  </div> -->
+                  <button type="submit">Calculate</button>
+              </form>
+                </div>
+              </div>
+            </div>
+          </section>
+      </div>
+    </header>
+
+
+    <footer class="footer">
+      <div class="footer__row-1">
+        <div class="footer__box">
+          <h4 class="footer__title">Company</h4>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#" class="footer__link">About Us</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Estates</a>
+            </li>
+            <li class="#footer__item">
+              <a href="" class="footer__link">Projects</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Gallery</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__box">
+          <h4 class="footer__title">Support</h4>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#" class="footer__link">Get Help</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">FAQs</a>
+            </li>
+            <li class="#footer__item">
+              <a href="" class="footer__link">Privacy Policy</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Terms of Operation</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__box">
+          <h4 class="footer__title">Offices</h4>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#" class="footer__link">Nairobi</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Kisumu</a>
+            </li>
+            <li class="#footer__item">
+              <a href="" class="footer__link">Murang'a</a>
+            </li>
+            <li class="footer__item">
+              <a href="#" class="footer__link">Eldoret</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__box">
+          <label for="language" class="footer__title">Language</label>
+          <select name="language" id="language" class="footer__dropdown">
+            <option class="footer__dropdown-item">English</option>
+            <option class="footer__dropdown-item">French</option>
+            <option class="footer__dropdown-item">Spanish</option>
+            <option class="footer__dropdown-item">Arabic</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="footer__row-2 u-margin-top-small">
+        <p class="copyright">&copy; 2024 Group 5. All Rights Reserved.</p>
+
+        <div class="footer__social-icons-box">
+          <a href="#" class="footer__social-link">
+            <svg class="social-icon">
+              <use xlink:href="img/sprite.svg#facebook"></use>
+            </svg>
+          </a>
+          <a href="#" class="footer__social-link">
+            <svg class="social-icon">
+              <use xlink:href="img/sprite.svg#instagram"></use>
+            </svg>
+          </a>
+          <a href="#" class="footer__social-link">
+            <svg class="social-icon">
+              <use xlink:href="img/sprite.svg#twitter"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer__row-3 u-margin-top-small">
+        <!--<svg class="logo">
+          <use xlink:href="img/sprite.svg#buildco-logo-white"></use>
+        </svg>-->
+        <p class="developer-text">Made with 🤍 && 🔥 by Group 5 IT</p>
+      </div>
+    </footer>
+  </body>
+</html>
